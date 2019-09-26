@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Function: giá  trị mặc định.</title>
+</head>
+<body>
+
+	<script >
+
+		// in ra thong diep
+		// trong js có một số giá trị mặc định, truyền vào hay không cx không sao.
+		
+		function showmessage (message){
+			 message= message || ' Khong co message <br>';
+			 document.write(message);
+		} 
+
+		//Khi  bạn nhập vào giá trị nào thì nó sẽ in ra giá trị đó.
+		/*
+		var a=prompt("Nhap thong diep ma ban muon in ra");
+		showmessage(a);
+		*/
+
+		// Hoặc in ra giá trị mặc định mà ta đã gán ở trước.
+		showmessage();
+		
+
+
+
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Function</title>
+</head>
+<body>
+
+	<script >
+
+
+		// funtion kiem tra so chan le.
+		/*
+		function kiemtra (a){
+			var b= a %2;
+			if (b == 0) 
+				document.write(a +" la so chan.");
+
+			else if (b== 1)
+			 	document.write(a + " la so le");
+			else document.write(a + " khong phai la so.");
+		}
+		var a=prompt("Nhap so ban muon kiem tra : ");
+		kiemtra(a);
+
+		*/
+
+		// function co return
+		/*
+		function tong(a,b) {
+			c = parseInt(a+b);
+			return  c;
+		}
+
+		a=parseInt(prompt("Nhap so a : "));
+		b=parseInt(prompt("Nhap so b : "));
+		tong(a,b);
+		document.write(c);
+		*/
+
+		// in ra thong diep
+		// trong js có một số giá trị mặc định, truyền vào hay không cx không sao.
+		
+		function showmessage (message){
+			 message= message || ' Khong co message <br>';
+			 document.write(message);
+		} 
+
+		var a=prompt("Nhap thong diep ma ban muon in ra");
+
+		showmessage(a);
+		
+
+
+
+	</script>
+	
+</body>
+</html>
