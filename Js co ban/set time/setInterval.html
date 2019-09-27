@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hàm chạy không dừng.</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		// in ra man hinh chu hello
+		// var a = setInterval(function() {
+		// 	document.write("hello");
+		// },2000);
+
+		function nhang() {
+			var a=9;
+			var b=7;
+			c=a+b;
+			document.write(c);
+		}
+
+		var d=setInterval(nhang,3000);
+
+		clearInterval(d);
+
+
+
+	</script>
+	
+</body>
+</html>
