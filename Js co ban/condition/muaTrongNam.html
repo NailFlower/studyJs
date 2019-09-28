@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Các mùa trong năm.</title>
+</head>
+<body>
+
+	<form action="caculator" name="form">
+		<h1>Sessions in year</h1>
+		<label for="">Nhap thang :</label>
+
+		<input type="text" name="gt" id="gt">
+
+		<button id="ok" onclick= "mua()" > OK </button>
+
+		<p id= "kq"></p>
+
+	</form>
+
+
+	<script>
+
+		function mua(){
+			var thang=document.getElementById('gt').value;
+			thang=parseInt(thang);
+			
+			if (thang > 0 && thang <=3 ) {
+				document.getElementById('kq').innerHTM=("Day la mua xuan.");
+			}
+			else if (thang >=4 && thang <=6) {
+				document.getElementById('kq').innerHTML=("Day la mua ha.");
+			}
+		
+			else if (thang >= 7 && thang <=9) {
+				document.getElementById('kq').innerHTML=("Day la mua ha.");
+			}
+			else if (thang >= 10  && thang <= 12) {
+				document.getElementById('kq').innerHTML=("Day la mua ha.");
+			}	
+			else {
+				document.write("Day khong phai la thang trong nam.");
+			}
+		}
+	</script>
+	
+</body>
+</html>
