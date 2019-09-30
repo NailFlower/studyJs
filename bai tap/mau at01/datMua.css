@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.full-body {
+	display: block;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+}
+h2 span {
+	color: red;
+}
+h3 span {
+	color: white;
+	border-radius: 30px;
+	border-color: #4fb42e;
+}
+
+.full-main {
+	display: inline-block;
+}
+.full-main div {
+	display: inline-block;
+	float:left;
+	margin: 10px 10px;
+	color:#4fb42e;
+}
+.inf-cus h3,div {
+	display: block;
+}
+
