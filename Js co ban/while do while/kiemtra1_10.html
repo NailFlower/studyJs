@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dùng hàm prompt bắt người dùng nhập vào một số, kiểm tra nếu số đó từ 1-10 thì ok.Không thì bắt nhập lại.</title>
+</head>
+<body>
+	<script>
+		var value=null;
+		while(value < 1 || value > 10) {
+			value= parseInt(prompt("Enter number"));
+		}
+		alert(value);
+	</script>
+	
+</body>
+</html>
